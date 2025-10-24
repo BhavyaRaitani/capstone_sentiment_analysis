@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Dataset
+Dataset/*.txt
+!Dataset/README.md
+
+# Models
+models/*.bin
+models/*.ftz
+!models/README.md
+
+# Jupyter & System
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
